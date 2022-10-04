@@ -19,7 +19,7 @@ public class While {
 
 
         int priNum = 0;
-        int segNum = 1;
+        int segNum = 0;
 
         while (priNum != segNum) {
             priNum = Integer.parseInt(JOptionPane.showInputDialog(" Ingrese el primer número: "));
